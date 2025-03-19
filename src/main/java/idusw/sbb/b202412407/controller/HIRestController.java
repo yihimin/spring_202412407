@@ -13,6 +13,6 @@ public class HIRestController {
     }
     @GetMapping("/")
     public String goHome() {
-        return "index"; // 클라이언트(브라우저 또는 API 요청을 보낸 프로그램)가 서버로부터 받는 응답의 본문(내용)
+        return "main/index"; // 클라이언트(브라우저 또는 API 요청을 보낸 프로그램)가 서버로부터 받는 응답의 본문(내용)
     }
 }
